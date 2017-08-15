@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personality Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Personality Survey</h2>
+      </div>
+      <form id="personality_survey">
+        <div class="form-group">
+          <p>In The past month what personalities have you felt?</p>
+          <input type="checkbox" name="personalities" value="happy">Happy<br>
+          <input type="checkbox" name="personalities" value="sad">Sad<br>
+          <input type="checkbox" name="personalities" value="angry">Angry<br>
+          <input type="checkbox" name="personalities" value="lback">Laid Back<br>
+          <input type="checkbox" name="personalities" value="stressed">Stressed<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="personality-responses">
+        <p><b>You are of the following personality types:</b></p>
+      </span>
+      <br>
+    </div>
+  </body>
+</html>
